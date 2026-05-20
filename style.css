@@ -1,9 +1,10 @@
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #ffd6e7, #fff0f5);
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0a1128, #001f54, #034078);
     overflow: hidden;
     text-align: center;
+    color: white;
 }
 
 .container {
@@ -12,12 +13,12 @@ body {
 
 h1 {
     font-size: 3rem;
-    color: #ff4d88;
+    color: #9fd3ff;
 }
 
 p {
     font-size: 1.3rem;
-    color: #444;
+    color: #dbeeff;
 }
 
 button {
@@ -31,7 +32,7 @@ button {
 }
 
 #yesBtn {
-    background: #ff4d88;
+    background: #4da6ff;
     color: white;
 }
 
@@ -40,7 +41,8 @@ button {
 }
 
 #noBtn {
-    background: #ddd;
+    background: #1c3f60;
+    color: white;
     position: absolute;
 }
 
