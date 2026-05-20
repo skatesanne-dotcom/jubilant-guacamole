@@ -11,21 +11,25 @@ const messages = [
     "I hate you",
     "Let it happen(ref)",
     "PLEASEEEEEEE",
-    "We'd be legend-wait for it-dary",
+    "PRETTY PWEEASSSEEEEEE",
+    "I hope you die of rabies",
     "Just press yes already✨"
 ];
 
 let count = 0;
 
 noBtn.addEventListener("mouseover", () => {
-    const x = Math.random() * (window.innerWidth - 150);
-    const y = Math.random() * (window.innerHeight - 100);
+    const x = Math.random() * (window.innerWidth - 250);
+    const y = Math.random() * (window.innerHeight - 120);
 
     noBtn.style.left = `${x}px`;
     noBtn.style.top = `${y}px`;
 
-    scale *= 0.82;
+    scale *= 0.9;
     noBtn.style.transform = `scale(${scale})`;
+
+    noBtn.style.fontSize = `${Math.max(18, scale * 28)}px`;
+    noBtn.style.padding = `${Math.max(15, scale * 25)}px ${Math.max(25, scale * 45)}px`;
 
     noBtn.textContent = messages[count % messages.length];
     count++;
