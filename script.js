@@ -8,11 +8,11 @@ let scale = 1;
 const messages = [
     "Are you sure?🥺",
     "Cool cool cool cool cool cool",
-    "I hate you",
-    "Let it happen(ref)",
-    "PLEASEEEEEEE",
-    "PRETTY PWEEASSSEEEEEE",
-    "I hope you die of rabies",
+    "I hate you😒",
+    "Let it happen🏳️‍🌈⃤(ref)",
+    "PLEASEEEEEEE🥹",
+    "PRETTY PWEEASSSEEEEEE👉👈",
+    "I hope you die of rabies🐶",
     "Just press yes already✨"
 ];
 
