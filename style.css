@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffd6e7, #fff0f5);
+    overflow: hidden;
+    text-align: center;
+}
+
+.container {
+    margin-top: 18%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff4d88;
+}
+
+p {
+    font-size: 1.3rem;
+    color: #444;
+}
+
+button {
+    padding: 15px 35px;
+    margin: 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background: #ff4d88;
+    color: white;
+}
+
+#yesBtn:hover {
+    transform: scale(1.1);
+}
+
+#noBtn {
+    background: #ddd;
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+#celebration {
+    margin-top: 20%;
+}
